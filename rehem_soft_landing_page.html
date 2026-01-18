@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REHEM SOFT</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+    body{background:linear-gradient(180deg,#ffe6f0,#fff);color:#222}
+    header{display:flex;justify-content:space-between;align-items:center;padding:20px 8%}
+    header h1{color:#ff2f92;font-weight:700}
+    nav a{margin:0 12px;text-decoration:none;color:#333;font-weight:500}
+    .btn{padding:10px 18px;border-radius:20px;border:none;cursor:pointer;font-weight:600}
+    .btn-login{background:#ff2f92;color:#fff}
+    .btn-sign{background:#fff;color:#ff2f92;border:2px solid #ff2f92}
+
+    .hero{display:grid;grid-template-columns:1fr 1fr;align-items:center;padding:60px 8%;gap:40px}
+    .hero h2{font-size:42px;color:#ff2f92;margin-bottom:20px}
+    .hero p{font-size:16px;line-height:1.7;margin-bottom:25px}
+    .stats{display:flex;gap:20px;margin-top:30px}
+    .stat{background:#fff;padding:20px;border-radius:16px;box-shadow:0 10px 25px rgba(0,0,0,.08);text-align:center}
+    .stat h3{color:#ff2f92;font-size:26px}
+
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px;padding:60px 8%}
+    .card{background:#111;border-radius:18px;color:#fff;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,.2)}
+    .card img{width:100%;height:200px;object-fit:cover}
+    .card-content{padding:20px}
+    .card-content h4{font-size:22px;color:#ffde00;margin-bottom:10px}
+
+    footer{text-align:center;padding:30px;background:#ff2f92;color:#fff;margin-top:60px}
+
+    @media(max-width:900px){.hero{grid-template-columns:1fr}.hero h2{font-size:34px}}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>REHEM SOFT</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Pricing</a>
+    <a href="#">Funding</a>
+    <a href="#">Product</a>
+    <a href="#">Affiliate</a>
+    <button class="btn btn-login">Log in</button>
+    <button class="btn btn-sign">Sign Up</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <span style="background:#ff2f92;color:#fff;padding:6px 14px;border-radius:20px;font-size:14px">Trusted by 100K+</span>
+    <h2>REHEM SOFT<br>SOFTWARE GROWING!</h2>
+    <p>We’re a smart POS solution trusted by businesses to sell faster, manage inventory, and grow with confidence powered by reliable, all-in-one technology.</p>
+
+    <div class="stats">
+      <div class="stat"><h3>100250</h3><p>Total Members</p></div>
+      <div class="stat"><h3>20155</h3><p>Software Client</p></div>
+      <div class="stat"><h3>502366</h3><p>Visitors</p></div>
+    </div>
+  </div>
+
+  <div>
+    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" style="width:100%;border-radius:20px" />
+  </div>
+</section>
+
+<section class="cards">
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1556155092-8707de31f9c4" />
+    <div class="card-content">
+      <h4>REHEM POS</h4>
+      <p>নতুন বছরে রিটেইল ব্যবসা হোক আরও স্মার্ট ও লাভজনক</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4" />
+    <div class="card-content">
+      <h4>E-Commerce</h4>
+      <p>ই-কমার্স বা কাস্টমাইজ ওয়েবসাইট লাগবে?</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1580281657527-47f249e8f53a" />
+    <div class="card-content">
+      <h4>Pharmacy Software</h4>
+      <p>ওষুধের স্টক থেকে বিক্রয় পর্যন্ত সবকিছু একসাথে</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 REHEM SOFT. All Rights Reserved.
+</footer>
+
+</body>
+</html>
